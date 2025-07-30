@@ -5,7 +5,7 @@ import { logger } from '../utils/logger';
 import * as testData from '../test-data/credentials.json';
 
 test.describe('Valid Login Tests', () => {
-  test('Should successfully login with valid credentials', async ({ page }) => {
+  test('Should successfully login with valid credentials-EDITED', async ({ page }) => {
     const testName = 'Valid Login Test';
     logger.info(`Starting test: ${testName}`, testName);
 
